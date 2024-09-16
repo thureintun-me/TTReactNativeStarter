@@ -1,11 +1,11 @@
 import React from 'react';
-import HomeStack from './stack/HomeStack.tsx';
 import {NavigationContainer} from '@react-navigation/native';
+import AppDrawer from './drawer/AppDrawer.tsx';
 
 const RootNavigator = () => {
 
   return <NavigationContainer>
-    <HomeStack />
+    <AppDrawer />
   </NavigationContainer>;
 }
 
