@@ -11,6 +11,9 @@ const HomeScreen = ({route,navigation}:HomeStackScreenProps<"Home">) => {
     })}>
       <Text>Go To Detals</Text>
     </Pressable>
+    <Pressable onPress={()=>navigation.navigate('Counter')}>
+      <Text>Counter Screen</Text>
+    </Pressable>
   </View>
 }
 
